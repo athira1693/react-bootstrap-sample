@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import '../scss/header.scss'
+import '../scss/styles.scss'
 
 export default function Header() {
   return (

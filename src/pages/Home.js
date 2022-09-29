@@ -17,8 +17,12 @@ export default function Home() {
                 </small>
             </p>
             <div>
-                <Button className='custom-button'>
+                <Button className='custom-button-primary' style={{marginRight:'1.5rem'}}>
                     Start Now
+                </Button>
+                <Button className='custom-button-secondary'>
+                    Explore Hashgreed 
+                    <i class="fa fa-light fa-magnifying-glass pl-2"></i>
                 </Button>
             </div>
             </Col>

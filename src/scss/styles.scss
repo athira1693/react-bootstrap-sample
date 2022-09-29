@@ -1,19 +1,30 @@
 
-.custom-button{
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "variables.scss";
+
+.custom-button-primary{
     border-radius: 0;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
-    background: linear-gradient( #d3036e, #bb0b8d);
+    background: $primary-color;
     min-width: 8rem;
     border: unset;
     font-size: 0.875rem;
+    &:hover{
+        opacity: .8;
+    }
 }
-.custom-button{
+
+.custom-button-secondary{
     border-radius: 0;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    background: linear-gradient( #d3036e, #bb0b8d);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: transparent;
     min-width: 8rem;
-    border: unset;
+    border: 1px solid #4c3c49;
     font-size: 0.875rem;
+    &:hover{
+        background-color: transparent !important;
+        border-color: #938490 !important;
+    }
 }
