@@ -2,9 +2,14 @@
   background: linear-gradient(10deg, rgba(1,1,1,1) 22%, rgba(57,8,45,1) 64%);
   min-height: 100vh;
   color: #fff;
-  padding-right: 6rem;
-  padding-left: 6rem;
   font-family: 'Roboto Slab', serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .App{
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
 }
 
 .App-logo {

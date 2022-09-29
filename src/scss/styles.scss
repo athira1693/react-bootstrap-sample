@@ -7,11 +7,11 @@
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     background: $primary-color;
-    min-width: 8rem;
+    min-width: 10rem;
     border: unset;
     font-size: 0.875rem;
     &:hover{
-        opacity: .8;
+        opacity: .7;
     }
 }
 
@@ -20,7 +20,7 @@
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     background: transparent;
-    min-width: 8rem;
+    min-width: 10rem;
     border: 1px solid #4c3c49;
     font-size: 0.875rem;
     &:hover{

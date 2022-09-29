@@ -5,3 +5,15 @@
     font-size: calc(2rem + 1.5vw);
     font-weight: 600;
 }
+
+.right-image{
+    border: 2px solid #d10882;
+    border-radius: 9px;
+    width:65%;
+}
+
+@media only screen and (min-width: 768px) {
+    .right-image{
+        width:80%;
+    }
+}

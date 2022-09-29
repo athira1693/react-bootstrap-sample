@@ -12,7 +12,7 @@ a, a.nav-link {
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
     .navbar-nav .nav-link.active{
         border-bottom: 2px solid #fff;
     }
@@ -39,7 +39,7 @@ a, a.nav-link {
     border: unset;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
     .account-button{
         background: $primary-color;
         font-weight: 600;

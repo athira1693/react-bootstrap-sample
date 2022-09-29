@@ -5,7 +5,7 @@ import '../scss/styles.scss'
 
 export default function Header() {
   return (
-    <Navbar expand="md" className='pt-4'>
+    <Navbar expand="sm" className='pt-4'>
       <Container>
         <Navbar.Brand href="/" className='brand-name'>HASHGREED</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
