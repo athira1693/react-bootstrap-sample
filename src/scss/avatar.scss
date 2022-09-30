@@ -1,0 +1,30 @@
+.avatars {
+    display: inline-flex;
+  }
+  
+  .avatar {
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    &.xs{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: -0.5rem;
+    }
+    &.sm{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: -0.5rem;
+    }   
+  }
+
+  
+  .avatar:not(:first-child) {
+    margin-left: -0.5rem;
+  }
+  
+  .avatar img {
+    width: 100%;
+    display: block;
+  }

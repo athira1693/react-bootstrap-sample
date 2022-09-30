@@ -1,14 +1,14 @@
 import React from 'react'
 import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import '../scss/header.scss'
 import '../scss/styles.scss'
+import '../scss/header.scss'
 
 export default function Header() {
   return (
-    <Navbar expand="sm" className='pt-4'>
+    <Navbar expand="md" className='pt-4'>
       <Container>
         <Navbar.Brand href="/" className='brand-name'>HASHGREED</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav toggler" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
