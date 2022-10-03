@@ -1,18 +1,21 @@
 @import "variables";
 
-a, a.nav-link {
+a,
+a.nav-link {
     color: #fff;
     font-weight: 600;
 }
 
-.nav-link:focus, .nav-link.active, .nav-link:hover {
+.nav-link:focus,
+.nav-link.active,
+.nav-link:hover {
     background: $primary-color;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (min-width: 600px){
-    .navbar-nav .nav-link.active{
+@media only screen and (min-width: 600px) {
+    .navbar-nav .nav-link.active {
         border-bottom: 2px solid #fff;
     }
 }
@@ -31,10 +34,11 @@ a, a.nav-link {
     background: $primary-color-2;
 }
 
-.brand-name{
+.brand-name {
     color: #fff;
     font-size: 1.5rem;
-    &:hover{
+
+    &:hover {
         opacity: .7;
         color: #fff;
     }
@@ -42,18 +46,28 @@ a, a.nav-link {
 
 
 
-.account-button{
+.account-button {
     color: #efe9e9;
     border: unset;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 600px) {
-    .account-button{
+    .account-button {
         background: $primary-color;
         font-weight: 600;
-        &:hover{
+
+        &:hover {
             opacity: .7;
             color: #efe9e9;
         }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .account-button {
+        text-align: start;
+        padding-left: 0;
+        font-size: 1.1rem;
     }
 }

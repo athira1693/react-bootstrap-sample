@@ -4,7 +4,7 @@ import '../scss/avatar.scss'
 
 export default function Avatars({ profiles, size }) {
     return (
-        <div class="avatars" >
+        <div className="avatars" >
             {profiles.map(profile => (
                 <span id={profile.id} className={`avatar ${size}`}>
                     <Image src={profile.image} />
