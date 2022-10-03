@@ -1,0 +1,73 @@
+@import "variables";
+
+a,
+a.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-link:focus,
+.nav-link.active,
+.nav-link:hover {
+    background: $primary-color;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-nav .nav-link.active {
+        border-bottom: 2px solid #fff;
+    }
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus {
+    outline: unset;
+    box-shadow: unset;
+}
+
+
+.container:has(.navbar-collapse.show) {
+    background: $primary-color-2;
+}
+
+.brand-name {
+    color: #fff;
+    font-size: 1.5rem;
+
+    &:hover {
+        opacity: .7;
+        color: #fff;
+    }
+}
+
+
+
+.account-button {
+    color: #efe9e9;
+    border: unset;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 600px) {
+    .account-button {
+        background: $primary-color;
+        font-weight: 600;
+
+        &:hover {
+            opacity: .7;
+            color: #efe9e9;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .account-button {
+        text-align: start;
+        padding-left: 0;
+        font-size: 1.1rem;
+    }
+}
